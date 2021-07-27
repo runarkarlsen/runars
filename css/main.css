@@ -17,7 +17,7 @@ body {
 .navbar .logo {
   text-decoration: none;
   font-weight: bold;
-  color: black;
+  color: rgb(24, 22, 22);
   font-size: 1.2em;
 }
 
@@ -91,10 +91,38 @@ section {
   margin-right: 0.5em;
 }
 
-.hero-img {
-  width: 70%;
-  margin-top: 3em;
+/* Start test */
+
+.profile-image-samler img {
+  width: 350px;
 }
+
+/*  display: block;
+    position: absolute;
+    right: 0;
+    width: 350px;
+    bottom: -2em;
+
+
+     width: 70%;
+  margin-top: 3em;
+    */
+
+/* Venstre justerer teksten i kompetanse.html */
+.profile-content-samler p {
+  text-align: left;
+}
+
+/*
+.om-runar {
+  display: block;
+}
+*/
+.profile-content-samler {
+  display: block;
+}
+
+/* Slutt test */
 
 section.features-section {
   background: #20272e;
@@ -106,8 +134,8 @@ ul.features-list {
   padding-left: 0.1em;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  -ms-grid-columns: (minmax(19rem, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
 }
 
 ul.features-list li {
@@ -172,7 +200,7 @@ textarea {
   border-radius: 0.3em;
   border: 1px solid gray;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 input[type="submit"] {
@@ -241,18 +269,18 @@ nav li a:hover {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 180px auto;
-        grid-template-columns: 180px auto;
+    grid-template-columns: 180px auto;
     -webkit-box-pack: unset;
-        -ms-flex-pack: unset;
-            justify-content: unset;
+    -ms-flex-pack: unset;
+    justify-content: unset;
   }
   .navbar nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     background: none;
     position: unset;
     height: auto;
@@ -265,7 +293,7 @@ nav li a:hover {
     display: flex;
   }
   .navbar nav a {
-    color: black;
+    color: rgb(24, 22, 22);
     font-size: 1em;
     padding: 0.1em 1em;
   }
@@ -301,8 +329,8 @@ nav li a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     text-align: left;
   }
   .hero .container .left-col {
@@ -392,5 +420,18 @@ nav li a:hover {
     left: 4.5em;
     top: 2em;
   }
+
+  /* Legger på bakgrunnbilde i seksjon "hero" */
+  /* I’m taking lightgrey for the background, here */
+  /* color: rgba(211, 211, 211, 0.3); */
+
+  /*
+.hero {
+  
+color: rgba(255, 255, 255, 0.3);
+z-index: 5;
+{
+
+*/
 }
 /*# sourceMappingURL=main.css.map */
