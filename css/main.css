@@ -95,7 +95,7 @@ section {
 
 .profile-image-samler img {
   width: 350px;
-  display: flex;
+  display: flexbox;
 }
 
 /*  display: block;
