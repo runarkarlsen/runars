@@ -61,6 +61,7 @@ section {
 .left-col .subhead {
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 0.75rem;
   color: gray;
   letter-spacing: 0.3em;
 }
@@ -171,7 +172,7 @@ ul.features-list li:before {
   text-align: center;
   padding: 2em 0.5em;
   width: 80%;
-  margin: 0 auto 1em auto;
+  margin: 0 auto 5em auto;
   border-radius: 1em;
 }
 
