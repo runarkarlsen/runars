@@ -462,7 +462,7 @@ z-index: 5;
   display: inline-block;
   text-decoration: none;
   color: white;
-  background: limegreen;
+  background: rgb(66, 66, 66);
   padding: 0.5em 1.25em;
 }
 
@@ -487,14 +487,30 @@ z-index: 5;
 }
 
 .portfolio__title {
-  font-family: "Roboto Condensed", sans-srif;
-  font-size: 1.5em;
+  /* font-family: "Roboto Condensed", sans-srif;
+  */
+  font-size: 1.25em;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 0;
 }
 
-.portfolio__image,
+.portfolio__image {
+  /*
+    width: 100%;
+  position: center;
+  
+    width: 300px;
+  height: 337px;
+  object-fit: cover;
+  object-position: 70% 0;
+  margin-left: 2em;
+  */
+  width: 100%;
+
+  display: flex;
+}
+
 .portfolio-lightbox__image {
   width: 100%;
   display: block;
@@ -505,7 +521,7 @@ z-index: 5;
   align-items: center;
   justify-content: center;
   transform: scale(0, 1);
-  transition: transform 150ms ease-in-out;
+  transition: transform 250ms ease-in-out;
   transform-origin: right;
   padding: 2em;
   position: fixed;
@@ -525,14 +541,14 @@ z-index: 5;
 }
 
 .portfolio-lightbox__content {
-  width: 75%;
+  width: 60%;
   padding: 1em;
   background: black;
   position: relative;
 }
 
 .portfolio__lightbox__image {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .close {
@@ -543,7 +559,7 @@ z-index: 5;
   display: flex;
   width: 2em;
   height: 2em;
-  background: red;
+  background: var(--grunnfarge);
   border-radius: 50%;
   align-items: center;
   justify-content: center;
