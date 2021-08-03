@@ -510,19 +510,21 @@ Her begynner formatering av galleri fra fila arbeider.html
 }
 
 .portefolge__bilde {
-  /*
-    width: 100%;
+  width: 100%;
   position: center;
-  
+
+  /*
     width: 300px;
   height: 337px;
   object-fit: cover;
   object-position: 70% 0;
   margin-left: 2em;
   */
+  /*
   width: 100%;
 
   display: flex;
+  */
 }
 
 .portefolge-lysboks__bilde {
