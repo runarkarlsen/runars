@@ -513,13 +513,21 @@ Her begynner formatering av galleri fra fila arbeider.html
   /*
   width: 50%;
   position: center;
-  */
-
-  width: 300px;
+  
+  Det under her stod en gang samlet:position: width: 300px;
   height: 337px;
   object-fit: cover;
   object-position: 70% 0;
-  margin-left: 2em;
+  margin-left: 2em;;
+  
+  */
+
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 70% 0;
+  margin-left: 1em;
+  margin-top: 3em;
 
   /*
   width: 100%;
